@@ -1,0 +1,131 @@
+body{
+background-image:url('./img/bg1.jpg');
+background-size: 100%;
+background-repeat:no-repeat;
+}
+
+.h{
+text-shadow: 0px 0px 15px #906303;
+font-weight: bold;
+color: #FFF;
+padding: 7px 0px 7px 10px;
+text-align:center;
+animation:h 1.5s;
+-moz-animation:h 1.5s; /* Firefox */
+-webkit-animation:h 1.5s; /* Safari and Chrome */
+-o-animation:h 1.5s; /* Opera */
+}
+
+.kuang{
+border-radius: 5px;
+box-shadow:2px 2px 15px ;
+-moz-box-shadow:2px 2px 15px;
+-webkit-box-shadow:2px 2px 15px;
+}
+.left{
+font-size:1em;
+padding:3px;
+width:60%;
+height:70%;
+float:left;
+margin: 1% 0 1% 5%;
+opacity: 1;
+opacity: 0.7;
+position:relative;
+}
+.right{
+font-size:1em;
+padding:3px;
+width:28%;
+height:70%;
+float:left;
+margin: 1% 0 1% 1%;
+opacity: 1;
+opacity: 0.7;
+position:relative;
+}
+.footer{
+text-align:center;
+font-size:1em;
+padding:3px;
+width:90%;
+float:left;
+margin: 1% 0 1% 5%;
+opacity: 1;
+opacity: 0.7;
+position:relative;
+transition: width  1s, box-shadow 1s, background 1s; /* 过渡效果 */
+-moz-transition: width 1s, box-shadow 1s, background 1s;;	/* 过渡效果Firefox 4 */
+-webkit-transition: width 1s, box-shadow 1s, background 1s;	/* 过渡效果Safari 和 Chrome */
+-o-transition: width 1s, box-shadow 1s, background 1s;;	/* 过渡效果Opera */
+}
+.footertext{
+text-shadow: 0px 0px 6px #6E1E06;;
+color: #FFF;
+opacity: 1;
+}
+a{
+text-decoration:none;
+color: #FFF;
+}
+.footer:hover
+{
+background:#333;
+box-shadow:0px 0px 15px #CCC;
+-webkit-box-shadow:0px 0px 15px #CCC;
+-moz-box-shadow:0px 0px 15px #CCC;
+-o-box-shadow:0px 0px 15px #CCC;
+}
+button{
+	text-shadow: none;
+	background: none;
+	border:none;
+	color: #fff;
+	width: 100%;
+	height: 30%;
+	font-size:1.5em;
+	transition: height  1s, box-shadow 1s, background 1s; /* 过渡效果 */
+	-moz-transition: height 1s, box-shadow 1s, background 1s;	/* 过渡效果Firefox 4 */
+	-webkit-transition: height 1s, box-shadow 1s, background 1s;	/* 过渡效果Safari 和 Chrome */
+	-o-transition: height 1s, box-shadow 1s, background 1s;	/* 过渡效果Opera */
+}
+button:hover{
+	color: #fff;
+	background: #00a3cf;
+	height: 100%;
+}
+div.apple{
+	position:absolute;
+	z-index: 1;
+}
+div.horo-none{
+	width: 100%;
+	height: 40%;
+}
+div.horoimg{
+	float: right;
+	height: 60%;
+	width: 60%;
+}
+/*以下为动画内容*/
+@keyframes h
+{
+0%   {opacity: 0;}
+100% {opacity: 1;}
+}
+@-moz-keyframes h
+{
+0%   {opacity: 0;}
+100% {opacity: 1;}
+}
+@-webkit-keyframes h
+{
+0%   {opacity: 0;}
+100% {opacity: 1;}
+}
+@-o-keyframes h
+{
+0%   {opacity: 0;}
+100% {opacity: 1;}
+}
+
